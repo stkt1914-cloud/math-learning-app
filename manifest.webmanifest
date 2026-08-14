@@ -1,0 +1,17 @@
+{
+  "name": "工科数学学习",
+  "short_name": "工科数学",
+  "description": "工科数学分析与线性代数系统学习：双课程 24 章精讲 + 习题练习，支持离线使用。",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#AF52DE",
+  "theme_color": "#AF52DE",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
