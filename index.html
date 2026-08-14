@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>工科数学学习</title>
+<meta name="description" content="工科数学分析与线性代数系统学习 App：双课程 24 章精讲 + 习题练习，支持离线使用。">
+<meta name="theme-color" content="#AF52DE">
+<!-- iOS / PWA -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="工科数学">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app">
+  <!-- 顶栏 -->
+  <header id="topbar">
+    <button id="btn-back" class="icon-btn hidden" aria-label="返回">‹</button>
+    <h1 id="topbar-title">工科数学学习</h1>
+    <button id="btn-theme" class="icon-btn" aria-label="切换主题">◐</button>
+  </header>
+
+  <!-- 视图容器 -->
+  <main id="view"></main>
+
+  <!-- 底部浮动提示 -->
+  <div id="toast" class="hidden"></div>
+</div>
+
+<!-- 章节数据：工科数学分析 -->
+<script src="data/math-01.js"></script>
+<script src="data/math-02.js"></script>
+<script src="data/math-03.js"></script>
+<script src="data/math-04.js"></script>
+<script src="data/math-05.js"></script>
+<script src="data/math-06.js"></script>
+<script src="data/math-07.js"></script>
+<script src="data/math-08.js"></script>
+<script src="data/math-09.js"></script>
+<script src="data/math-10.js"></script>
+<script src="data/math-11.js"></script>
+<script src="data/math-12.js"></script>
+
+<!-- 章节数据：线性代数 -->
+<script src="data/linear-01.js"></script>
+<script src="data/linear-02.js"></script>
+<script src="data/linear-03.js"></script>
+<script src="data/linear-04.js"></script>
+<script src="data/linear-05.js"></script>
+<script src="data/linear-06.js"></script>
+<script src="data/linear-07.js"></script>
+<script src="data/linear-08.js"></script>
+<script src="data/linear-09.js"></script>
+<script src="data/linear-10.js"></script>
+<script src="data/linear-11.js"></script>
+<script src="data/linear-12.js"></script>
+
+<!-- 应用逻辑 -->
+<script src="js/highlight.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
